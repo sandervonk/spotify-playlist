@@ -27,6 +27,14 @@ Or try adding this to the header this if you dont want to download the files:
 ```
 
 Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
+## NEW: Mobile Support
+
+<p float="left">
+<img src="https://user-images.githubusercontent.com/10799950/126557331-2c211e56-a7ef-401b-bc48-1ce6c1a008ec.png" width="32%"/>
+<img src="https://user-images.githubusercontent.com/10799950/126557592-d7c9419d-d66d-4b4d-9f1d-13dda065d2c6.png" width="32%"/>
+ <img src="https://user-images.githubusercontent.com/10799950/126557723-2847291b-dc65-4485-bd23-86431b86d610.png" width="32%"/>
+  </p>
+## Desktop/Non-Touch Support
 <p float="left">
 <img src="https://user-images.githubusercontent.com/10799950/126550620-c05be69e-6b98-46de-979d-1a2465cd9bc5.png" width="49%"/>
 <img src="https://user-images.githubusercontent.com/10799950/126551109-9ae6eb89-a107-4b92-911d-020a2228e9e2.png" width="49%"/>
@@ -34,5 +42,4 @@ Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
 <img src="https://user-images.githubusercontent.com/10799950/126551393-c65abde6-354b-4505-8c9f-8bd46622c36a.png" width="49%"/>
   </p>
 
-![Uploading image.png…]()
 

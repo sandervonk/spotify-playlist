@@ -88,6 +88,7 @@ button {
 iframe {
   user-select: none;
 }
+
 #spotify-playlist {
   filter: drop-shadow(0 0 6px black) !important;
   position: fixed;
@@ -100,6 +101,4 @@ iframe {
   font-size: 1.5rem !important;
   font-weight: 600 !important;
   line-height: 0.7rem !important;
-}
-#player-minimize.minus {
 }

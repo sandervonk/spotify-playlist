@@ -8,7 +8,7 @@
 function setupSpotify() {
     if (document.getElementById("spotify-container") === null) {
         console.log("adding element")
-        spotifyContainer = `<div id="spotify-playlist" class="minimized"><div id="player-minimize" class="minus" onclick="togglePlayer()">-</div><div id=spotify-container><button id=change-link onclick=changeLink() style=display:none>+</button><iframe allow=encrypted-media allowtransparency=true frameborder=0 height=100% id=spotify-player src=https://open.spotify.com/embed/album/></iframe><div id=add-album><button id=album-button onclick=albumInput() class="">Add your playlist</button> <input aria-label="enter your spotify album link here!"class=button-size id=album-input placeholder="Spotify Playlist Link"style=display:none;font-weight:400> <button id=album-ok onclick=albumSet() class=""style=display:none>OK</button></div></div></div>`
+        spotifyContainer = `<div id="spotify-playlist" class="minimized"><div id="player-minimize" class="plus" onclick="togglePlayer()">-</div><div id=spotify-container><button id=change-link onclick=changeLink() style=display:none>+</button><iframe allow=encrypted-media allowtransparency=true frameborder=0 height=100% id=spotify-player src=https://open.spotify.com/embed/album/></iframe><div id=add-album><button id=album-button onclick=albumInput() class="">Add your playlist</button> <input aria-label="enter your spotify album link here!"class=button-size id=album-input placeholder="Spotify Playlist Link"style=display:none;font-weight:400> <button id=album-ok onclick=albumSet() class=""style=display:none>OK</button></div></div></div>`
         document.body.innerHTML += spotifyContainer
     }
     console.log("running setupSpotify()")

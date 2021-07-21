@@ -30,8 +30,9 @@ Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
 ## NEW: Mobile Support
 
 <p float="left">
-<img src="https://user-images.githubusercontent.com/10799950/126557331-2c211e56-a7ef-401b-bc48-1ce6c1a008ec.png" width="49%"/>
-<img src="https://user-images.githubusercontent.com/10799950/126557592-d7c9419d-d66d-4b4d-9f1d-13dda065d2c6.png" width="49%"/>
+<img src="https://user-images.githubusercontent.com/10799950/126557331-2c211e56-a7ef-401b-bc48-1ce6c1a008ec.png" width="32%"/>
+<img src="https://user-images.githubusercontent.com/10799950/126557592-d7c9419d-d66d-4b4d-9f1d-13dda065d2c6.png" width="32%"/>
+ <img src="https://user-images.githubusercontent.com/10799950/126557723-2847291b-dc65-4485-bd23-86431b86d610.png" width="32%"/>
   </p>
 ## Desktop/Non-Touch Support
 <p float="left">

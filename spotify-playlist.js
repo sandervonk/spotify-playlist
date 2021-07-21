@@ -24,11 +24,11 @@ function setupSpotify() {
 }
 function togglePlayer() {
     minimize = document.getElementById("spotify-playlist")
-    if (minimize.style.transform === "none" || minimize.style.transform === "") {
-        minimize.style.transform = "translateY(10rem)"
+    if (minimize.className === "") {
+        minimize.className = "minimized"
         document.getElementById("player-minimize").className = "plus"
     } else {
-        minimize.style.transform = "none"
+        minimize.className = ""
         document.getElementById("player-minimize").className = "minus"
     }
 }

@@ -122,6 +122,9 @@ iframe {
   background-color: white;
   background-position-y: 0px;
 }
+#spotify-playlist.minimized {
+  transform: translateY(10rem);
+}
 #spotify-playlist * {
   box-sizing: border-box !important;
 }
@@ -134,4 +137,64 @@ iframe {
 }
 .background-filter {
   filter: contrast(0.5) saturate(0);
+}
+
+/*mobile formatting*/
+@media (hover: none), (max-width: 768px), (max-device-width: 768px) {
+  #spotify-playlist {
+    width: 100% !important;
+  }
+  #player-minimize {
+    background-position-y: 5rem !important;
+  }
+  #player-minimize.plus {
+    background-position-y: 0px !important;
+  }
+  #player-minimize {
+    right: 50% !important;
+    bottom: 40rem !important;
+    padding: 5% !important;
+    text-align: center !important;
+    font-size: 10rem !important;
+    width: fit-content !important;
+    line-height: 10rem !important;
+    min-height: 7rem !important;
+    border-top-left-radius: 50rem;
+    border-top-right-radius: 50rem;
+    min-width: 165px !important;
+  }
+  #spotify-container {
+    width: 100% !important;
+    height: 40rem;
+    border-left: none;
+    border-top-left-radius: 0px !important;
+    border-top-width: 0.5rem;
+  }
+  #spotify-player {
+    border-top-left-radius: 0rem;
+    width: 33.33333%;
+    height: 33.33333%;
+    transform: scale(3);
+    transform-origin: top left;
+  }
+  #spotify-playlist.minimized {
+    transform: translateY(40rem);
+  }
+  #album-button {
+    font-size: 3rem;
+    max-width: 75%;
+    border-radius: 10rem;
+    padding: 1rem;
+  }
+  #album-input,
+  #album-ok {
+    font-size: 2rem;
+    max-width: 75%;
+    border-radius: 20rem;
+    padding: 1.5rem;
+  }
+  #album-ok {
+    width: 6rem !important;
+    background: rgb(86, 158, 224);
+  }
 }

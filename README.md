@@ -3,6 +3,11 @@
  - Playlist is saved across sections in `localstorage["spotify-playlist"]`
     - you can set this to whatever embed URL you want in your own JS to force a playlist of your choice
     - setup page only shows the first time, other times use the [+] button to change it
+## **_Important_**
+The windows now starts out collapsed/minimized, if you want it to start open, either remove the `class="minimized"` from line 11 of the js, or have your webiste run this js (after it has loaded):
+```js
+document.getElementById("spotify-playlist").className = ""
+```
 
 ## DEMO:
 http://sandervonk.github.io/spotify-playlist/demo.html

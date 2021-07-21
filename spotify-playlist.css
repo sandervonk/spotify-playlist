@@ -96,6 +96,7 @@ iframe {
   right: 0px;
   transform: none;
   transition: transform 0.35s ease-in-out;
+  z-index: 120000;
 }
 #player-minimize.plus {
   font-size: 1.5rem !important;

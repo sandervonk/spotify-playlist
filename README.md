@@ -18,10 +18,10 @@ Or try adding this to the header this if you dont want to download the files:
 
 Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
 <p float="left">
-<img src="https://user-images.githubusercontent.com/10799950/126550620-c05be69e-6b98-46de-979d-1a2465cd9bc5.png" height="225" width="400"/>
-<img src="https://user-images.githubusercontent.com/10799950/126551109-9ae6eb89-a107-4b92-911d-020a2228e9e2.png" height="225" width="400"/>
-<img src="https://user-images.githubusercontent.com/10799950/126551304-bee54b86-0631-4aa2-8224-b9093981f8eb.png" height="225" width="400"/>
-<img src="https://user-images.githubusercontent.com/10799950/126551393-c65abde6-354b-4505-8c9f-8bd46622c36a.png" height="225" width="400"/>
+<img src="https://user-images.githubusercontent.com/10799950/126550620-c05be69e-6b98-46de-979d-1a2465cd9bc5.png" width="49%"/>
+<img src="https://user-images.githubusercontent.com/10799950/126551109-9ae6eb89-a107-4b92-911d-020a2228e9e2.png" width="49%"/>
+<img src="https://user-images.githubusercontent.com/10799950/126551304-bee54b86-0631-4aa2-8224-b9093981f8eb.png" width="49%"/>
+<img src="https://user-images.githubusercontent.com/10799950/126551393-c65abde6-354b-4505-8c9f-8bd46622c36a.png" width="49%"/>
   </p>
 
 

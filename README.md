@@ -6,6 +6,13 @@
 
 ## DEMO:
 http://sandervonk.github.io/spotify-playlist/demo.html
+<details>
+<summary>Demo</summary>
+
+ 
+[<img src="https://user-images.githubusercontent.com/10799950/126552852-c28463e8-550d-4152-8f4d-6bea3a59d5e0.png">](https://sander.vonk.productions/spotify-playlist/)
+
+</details>
 
 ## How to:
 Just add these 2 lines to your html page head, given that the two files are in the same folder as it:
@@ -27,4 +34,5 @@ Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
 <img src="https://user-images.githubusercontent.com/10799950/126551393-c65abde6-354b-4505-8c9f-8bd46622c36a.png" width="49%"/>
   </p>
 
+![Uploading image.png…]()
 

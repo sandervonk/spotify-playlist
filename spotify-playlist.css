@@ -1,0 +1,78 @@
+#spotify-container {
+  background: linear-gradient(45deg, #8c1932, #ff6437 60%);
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 20rem;
+  height: 10rem;
+  border-top-left-radius: 2rem;
+  border: solid #fff;
+  border-style: solid none none solid;
+  filter: drop-shadow(4px 4px 10px #000);
+  z-index: 110000 !important;
+}
+#album-button,
+.button-size,
+#album-ok {
+  width: 100%;
+  border-radius: 2rem;
+  height: fit-content;
+  padding: 0.6rem;
+  font-family: Montserrat Alternates;
+}
+#album-button:hover,
+#album-ok:hover {
+  filter: drop-shadow(rgba(0, 0, 0, 0.5) 0 0 4px);
+}
+#add-album {
+  display: inline-block;
+  text-align: center;
+}
+#add-album > * {
+  max-width: 50%;
+}
+#album-ok {
+  width: fit-content !important;
+  background: rgb(130, 180, 226);
+  color: white;
+}
+#album-ok:hover {
+  background: rgb(86, 158, 224);
+}
+#album-input {
+  border: black solid 2px;
+}
+button#change-link {
+  top: 10px;
+  right: 10px;
+  position: absolute;
+  border-radius: 2rem;
+  padding: 0.5rem;
+  width: 2rem;
+  height: 2rem;
+  filter: drop-shadow(0 0 4px black);
+  background: rgb(86, 158, 224);
+  color: white;
+  font-size: 1.5rem;
+  line-height: 1rem;
+  vertical-align: 50%;
+  cursor: pointer;
+}
+button {
+  cursor: pointer;
+}
+#player-minimize {
+  position: fixed;
+  bottom: 10rem;
+  right: 10rem;
+  background: white;
+  z-index: 110001;
+  padding: 0.5rem;
+  transform: translateX(50%);
+  border-radius: 2rem 2rem 0rem 0rem;
+  cursor: pointer;
+  height: 1.5rem;
+  text-align: center;
+  font-size: 3rem;
+  line-height: 0.2rem;
+}

@@ -68,7 +68,7 @@ button {
 }
 #player-minimize {
   position: fixed;
-  bottom: 10.2rem;
+  bottom: 10rem;
   right: 10rem;
   background: white;
   z-index: 110000;
@@ -81,6 +81,8 @@ button {
   font-size: 3rem;
   line-height: 0.2rem;
   width: 1.1rem;
+  min-width: 45px;
+  min-height: 35px;
 }
 #album-input {
   text-align: center;
@@ -102,4 +104,7 @@ iframe {
   font-size: 1.5rem !important;
   font-weight: 600 !important;
   line-height: 0.7rem !important;
+}
+#spotify-playlist * {
+  box-sizing: border-box !important;
 }

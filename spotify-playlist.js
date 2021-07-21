@@ -8,7 +8,7 @@
 function setupSpotify() {
     if (document.getElementById("spotify-container") === null) {
         console.log("adding element")
-        spotifyContainer = `<div id="spotify-playlist"><div id="player-minimize" onclick="togglePlayer()">-</div><div id=spotify-container><button id=change-link onclick=changeLink() style=display:none>+</button><iframe allow=encrypted-media allowtransparency=true frameborder=0 height=100% id=spotify-player src=https://open.spotify.com/embed/album/ style=border-top-left-radius:2rem;width:100%;height:100% width=100%></iframe><div id=add-album><button id=album-button onclick=albumInput() class="">Add your playlist</button> <input aria-label="enter your spotify album link here!"class=button-size id=album-input placeholder="Spotify Playlist Link"style=display:none;font-weight:400> <button id=album-ok onclick=albumSet() class=""style=display:none>OK</button></div></div></div>`
+        spotifyContainer = `<div id="spotify-playlist"><div id="player-minimize" class="minus" onclick="togglePlayer()">-</div><div id=spotify-container><button id=change-link onclick=changeLink() style=display:none>+</button><iframe allow=encrypted-media allowtransparency=true frameborder=0 height=100% id=spotify-player src=https://open.spotify.com/embed/album/></iframe><div id=add-album><button id=album-button onclick=albumInput() class="">Add your playlist</button> <input aria-label="enter your spotify album link here!"class=button-size id=album-input placeholder="Spotify Playlist Link"style=display:none;font-weight:400> <button id=album-ok onclick=albumSet() class=""style=display:none>OK</button></div></div></div>`
         document.body.innerHTML += spotifyContainer
     }
     console.log("running setupSpotify()")
@@ -26,11 +26,9 @@ function togglePlayer() {
     minimize = document.getElementById("spotify-playlist")
     if (minimize.style.transform === "none" || minimize.style.transform === "") {
         minimize.style.transform = "translateY(10rem)"
-        document.getElementById("player-minimize").textContent = "+"
         document.getElementById("player-minimize").className = "plus"
     } else {
         minimize.style.transform = "none"
-        document.getElementById("player-minimize").textContent = "-"
         document.getElementById("player-minimize").className = "minus"
     }
 }

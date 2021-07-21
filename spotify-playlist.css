@@ -57,6 +57,7 @@ button#change-link {
   line-height: 1rem;
   vertical-align: 50%;
   cursor: pointer;
+  border: none !important;
 }
 button {
   cursor: pointer;

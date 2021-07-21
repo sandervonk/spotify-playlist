@@ -224,10 +224,10 @@ iframe {
     z-index: 0;
   }
   #player-minimize {
-    background-position-y: 5rem !important;
+    background-position-y: 6vh !important;
   }
   #player-minimize.plus {
-    background-position-y: 0px !important;
+    background-position-y: 0.5vh !important;
   }
   #player-minimize {
     right: 50% !important;
@@ -236,13 +236,18 @@ iframe {
     text-align: center !important;
     font-size: 10vh !important;
     width: fit-content !important;
-    line-height: 10vh !important;
+    line-height: 20vh !important;
     min-height: 7vh !important;
     border-top-left-radius: 50rem;
     border-top-right-radius: 50rem;
-    min-width: 10vh !important;
-    background-size: cover;
+    width: 9vh !important;
+    background-size: 90% !important;
     background-position-x: center;
+  }
+  #player-minimize.minus {
+    line-height: 1vh !important;
+    font-size: 10vh !important;
+    font-weight: 400 !important;
   }
   #spotify-container {
     width: 100% !important;

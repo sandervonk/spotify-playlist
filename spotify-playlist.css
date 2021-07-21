@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;500;600;700&display=swap");
 #spotify-container {
   background: linear-gradient(45deg, #8c1932, #ff6437 60%);
   position: fixed;
@@ -18,7 +19,9 @@
   border-radius: 2rem;
   height: fit-content;
   padding: 0.6rem;
-  font-family: Montserrat Alternates;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600 !important;
+  border: none !important;
 }
 #album-button:hover,
 #album-ok:hover {
@@ -35,12 +38,13 @@
   width: fit-content !important;
   background: rgb(130, 180, 226);
   color: white;
+  border: none !important;
 }
 #album-ok:hover {
   background: rgb(86, 158, 224);
 }
 #album-input {
-  border: black solid 2px;
+  border: black solid 2px !important;
 }
 button#change-link {
   top: 10px;
@@ -76,4 +80,7 @@ button {
   text-align: center;
   font-size: 3rem;
   line-height: 0.2rem;
+}
+#album-input {
+  text-align: center;
 }

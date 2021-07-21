@@ -84,3 +84,6 @@ button {
 #album-input {
   text-align: center;
 }
+iframe {
+  user-select: none;
+}

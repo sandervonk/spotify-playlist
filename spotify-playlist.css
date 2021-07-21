@@ -83,6 +83,9 @@ button {
   width: 1.1rem;
   min-width: 45px;
   min-height: 35px;
+  transition: background-position-y 0.35s ease-in-out;
+  background-position-y: 65px;
+  background-repeat: no-repeat;
 }
 #album-input {
   text-align: center;
@@ -105,8 +108,10 @@ iframe {
   font-weight: 600 !important;
   line-height: 0.7rem !important;
   color: transparent;
-  background: url(https://sander.vonk.productions/spotify-playlist/img/spotify-alt.png);
+  background-image: url(https://sander.vonk.productions/spotify-playlist/img/spotify.png);
   background-size: contain;
+  background-color: white;
+  background-position-y: 0px;
 }
 #spotify-playlist * {
   box-sizing: border-box !important;

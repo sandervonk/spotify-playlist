@@ -6,15 +6,15 @@ http://sandervonk.github.io/spotify-playlist/demo.html
 
 ## How to:
 Just add these 2 lines to your html page head, given that the two files are in the same folder as it:
-    ```html
+```html
     <script src="spotify-playlist.js"></script>
     <link rel="stylesheet" href="spotify-playlist.css"/>
-    ```
+```
 Or try adding this to the header this if you dont want to download the files:
-    ```html
+```html
     <script src="https://sander.vonk.productions/spotify-playlist/spotify-playlist.js"></script>
     <link rel="stylesheet" href="https://sander.vonk.productions/spotify-playlist/spotify-playlist.css"/>
-    ```
+```
 
 Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
 <p float="left">

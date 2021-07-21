@@ -67,7 +67,7 @@ button {
   cursor: pointer;
 }
 #player-minimize {
-  position: fixed;
+  position: absolute;
   bottom: 10rem;
   right: 10rem;
   background: white;
@@ -107,4 +107,14 @@ iframe {
 }
 #spotify-playlist * {
   box-sizing: border-box !important;
+}
+#add-album {
+  position: absolute !important;
+  bottom: 25%;
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 100%;
+}
+.background-filter {
+  filter: contrast(0.5) saturate(0);
 }

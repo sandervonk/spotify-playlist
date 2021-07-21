@@ -8,7 +8,7 @@
 function setupSpotify() {
     if (document.getElementById("spotify-container") === null) {
         console.log("adding element")
-        spotifyContainer = `<div id="spotify-playlist"><div id="player-minimize" onclick="togglePlayer()">-</div><div id=spotify-container><button id=change-link onclick=changeLink() style=display:none>+</button><iframe allow=encrypted-media allowtransparency=true frameborder=0 height=100% id=spotify-player src=https://open.spotify.com/embed/album/ style=border-top-left-radius:2rem;width:100%;height:100% width=100%></iframe><div id=add-album style=position:fixed;bottom:25%;right:50%;transform:translate(50%,50%);width:100%><button id=album-button onclick=albumInput() class="">Add your playlist</button> <input aria-label="enter your spotify album link here!"class=button-size id=album-input placeholder="Spotify Playlist Link"style=display:none;font-weight:400> <button id=album-ok onclick=albumSet() class=""style=display:none>OK</button></div></div></div>`
+        spotifyContainer = `<div id="spotify-playlist"><div id="player-minimize" onclick="togglePlayer()">-</div><div id=spotify-container><button id=change-link onclick=changeLink() style=display:none>+</button><iframe allow=encrypted-media allowtransparency=true frameborder=0 height=100% id=spotify-player src=https://open.spotify.com/embed/album/ style=border-top-left-radius:2rem;width:100%;height:100% width=100%></iframe><div id=add-album><button id=album-button onclick=albumInput() class="">Add your playlist</button> <input aria-label="enter your spotify album link here!"class=button-size id=album-input placeholder="Spotify Playlist Link"style=display:none;font-weight:400> <button id=album-ok onclick=albumSet() class=""style=display:none>OK</button></div></div></div>`
         document.body.innerHTML += spotifyContainer
     }
     console.log("running setupSpotify()")
@@ -49,17 +49,17 @@ function checkInput() {
     }
     if (input.includes("album")) {
         str = "https://open.spotify.com/embed/album/" + encodeURIComponent(input.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0])
-        document.getElementById("spotify-player").style.filter = "blur(2px)"
+        document.getElementById("spotify-player").className = "background-filter"
         if (document.getElementById("album-input").value.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0].length != 22) {
             str = "https://open.spotify.com/embed/album/"
-            document.getElementById("spotify-player").style.filter = ""
+            document.getElementById("spotify-player").className = ""
         }
     } else {
         str = "https://open.spotify.com/embed/playlist/" + encodeURIComponent(input.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0])
-        document.getElementById("spotify-player").style.filter = "blur(2px)"
+        document.getElementById("spotify-player").className = "background-filter"
         if (input.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0].length != 22) {
             str = "https://open.spotify.com/embed/playlist/"
-            document.getElementById("spotify-player").style.filter = ""
+            document.getElementById("spotify-player").className = ""
         }
     }
 
@@ -77,22 +77,22 @@ function albumSet() {
     input = document.getElementById("album-input").value.replace("embed/", "")
     if (input.includes("album")) {
         str = "https://open.spotify.com/embed/album/" + encodeURIComponent(input.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0])
-        document.getElementById("spotify-player").style.filter = "blur(2px)"
+        document.getElementById("spotify-player").className = "background-filter"
         if (document.getElementById("album-input").value.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0].length != 22) {
             str = "https://open.spotify.com/embed/album/"
-            document.getElementById("spotify-player").style.filter = ""
+            document.getElementById("spotify-player").className = ""
         }
     } else {
         str = "https://open.spotify.com/embed/playlist/" + encodeURIComponent(input.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0])
-        document.getElementById("spotify-player").style.filter = "blur(2px)"
+        document.getElementById("spotify-player").className = "background-filter"
         if (input.replace("https://open.spotify.com/album/", '').replace("https://open.spotify.com/playlist/", '').split("?")[0].length != 22) {
             str = "https://open.spotify.com/embed/playlist/"
-            document.getElementById("spotify-player").style.filter = ""
+            document.getElementById("spotify-player").className = ""
         }
     }
     console.log(`set to: ${str}`)
     document.getElementById("add-album").style.display = "none"
-    document.getElementById("spotify-player").style.filter = ""
+    document.getElementById("spotify-player").className = ""
     localStorage["spotify-playlist"] = str
     document.getElementById("album-input").value = ""
     setupSpotify()

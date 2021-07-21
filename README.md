@@ -1,5 +1,8 @@
 # spotify-playlist
-A lightweight playlist loader that should work on most sites! (just a little JS and CSS)
+ - A lightweight playlist loader that should work on most sites! (just a little JS and CSS)
+ - Playlist is saved across sections in `localstorage["spotify-playlist"]`
+    - you can set this to whatever embed URL you want in your own JS to force a playlist of your choice
+    - setup page only shows the first time, other times use the [+] button to change it
 
 ## DEMO:
 http://sandervonk.github.io/spotify-playlist/demo.html

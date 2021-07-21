@@ -259,12 +259,11 @@ iframe {
   }
   #spotify-player {
     border-top-left-radius: 0rem;
-    /*
-    width: 33.33333%;
-    height: 33.33333%;
-    transform: scale(3);
+
+    width: 75%;
+    height: 75%;
+    transform: scale(1.25);
     transform-origin: top left;
-    */
   }
   #spotify-playlist.minimized {
     transform: translateY(40vh);

@@ -10,7 +10,7 @@ Just add these 2 lines to your html page head, given that the two files are in t
 <script src="spotify-playlist.js"></script>
 <link rel="stylesheet" href="spotify-playlist.css"/>
 ```
-Or try this if you dont want to download the files:
+Or try adding this to the header this if you dont want to download the files:
 ```html
     <script src="https://sander.vonk.productions/spotify-playlist/spotify-playlist.js"></script>
     <link rel="stylesheet" href="https://sander.vonk.productions/spotify-playlist/spotify-playlist.css"/>

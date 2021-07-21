@@ -261,7 +261,7 @@ iframe {
     border-top-left-radius: 0rem;
     width: 75%;
     height: 75%;
-    transform: scale(1.3333333);
+    transform: scale(1.34);
     transform-origin: top left;
   }
   #spotify-playlist.minimized {

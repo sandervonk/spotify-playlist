@@ -12,8 +12,8 @@ Just add these 2 lines to your html page head, given that the two files are in t
 ```
 Or try this if you dont want to download the files:
 ```html
-<script src="https://raw.githubusercontent.com/sandervonk/spotify-playlist/main/spotify-playlist.js"></script>
-<link rel="stylesheet" href="https://raw.githubusercontent.com/sandervonk/spotify-playlist/main/spotify-playlist.css"/>
+    <script src="https://sander.vonk.productions/spotify-playlist/spotify-playlist.js"></script>
+    <link rel="stylesheet" href="https://sander.vonk.productions/spotify-playlist/spotify-playlist.css"/>
 ```
 
 Example of it in use [here](https://sandervonk.github.io/Portfolio.html):

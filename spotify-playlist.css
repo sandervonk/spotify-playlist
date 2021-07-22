@@ -149,7 +149,7 @@ iframe {
   min-height: 235px !important;
 }
 #add-album {
-  font-size: 1vw !important;
+  font-size: 120% !important;
 }
 
 @media (hover: none), (max-width: 768px), (max-device-width: 768px) {

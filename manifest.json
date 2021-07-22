@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Simplify Spotify",
+  "description": "Adds a small spotify player to all pages",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "js": ["spotify-playlist.js"],
+      "css": ["spotify-playlist.css"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}

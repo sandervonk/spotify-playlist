@@ -28,6 +28,7 @@ function positionHeight() {
         sheet.insertRule(`#spotify-playlist.minimized { transform: translateY(${document.getElementById("spotify-container").offsetHeight}px) !important; }`, 0);
     } catch {
         document.head.innerHTML += `<style>#spotify-playlist.minimized { transform: translateY(${document.getElementById("spotify-container").offsetHeight}px) !important; }</style>`
+
     }
 }
 function togglePlayer() {

@@ -22,6 +22,9 @@ function setupSpotify() {
         document.getElementById("album-input").oninput = checkInput
     }
 }
+function positionMinify() {
+    document.getElementById("player-minimize").style.bottom = `${document.getElementById("spotify-container").offsetHeight}px`
+}
 function togglePlayer() {
     minimize = document.getElementById("spotify-playlist")
     if (minimize.className === "") {
@@ -98,3 +101,4 @@ function albumSet() {
     setupSpotify()
 }
 setTimeout(setupSpotify, 300)
+setTimeout(positionMinify, 350)

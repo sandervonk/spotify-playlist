@@ -9,5 +9,4 @@
 console.log("running initSpotify!")
 document.head.innerHTML += `<script src="https://sander.vonk.productions/spotify-playlist/scriptrequisites.js"></script>`
 
-setTimeout(setupSpotify, 300)
 

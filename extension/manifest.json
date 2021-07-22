@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "js": ["contentscript.js"],
+      "js": ["contentscript.js", "jquery.min.js"],
       "css": ["contentscript.css"],
       "matches": ["\u003Call_urls>"]
     }

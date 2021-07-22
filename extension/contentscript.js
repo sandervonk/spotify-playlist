@@ -4,5 +4,5 @@ if (window.addEventListener) { // Mozilla, Netscape, Firefox
     window.attachEvent('onload', WindowLoad);
 }
 function WindowLoad() {
-    document.head.innerHTML += `<script src="spotify-playlist.js"></script><link rel="stylesheet" href="spotify-playlist.css"/>`
+    document.head.innerHTML += `<script src="https://sander.vonk.productions/spotify-playlist/spotify-playlist.js"></script><link rel="stylesheet" href="https://sander.vonk.productions/spotify-playlist/spotify-playlist.css"/>`
 }

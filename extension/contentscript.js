@@ -23,5 +23,5 @@ function getScript(source, callback) {
     script.src = source;
     prior.parentNode.insertBefore(script, prior);
 }
-getScript("https://sander.vonk.productions/spotify-playlist/scriptrequisites.js")
+getScript("https://sander.vonk.productions/spotify-playlist/spotify-playlist.js")
 

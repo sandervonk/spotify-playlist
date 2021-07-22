@@ -12,7 +12,6 @@
   "content_scripts": [
     {
       "js": ["contentscript.js"],
-      "css": ["contentscript.css"],
       "matches": ["\u003Call_urls>", "https://google.com/*"]
     }
   ]

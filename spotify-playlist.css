@@ -187,6 +187,7 @@ iframe {
     border-top-left-radius: 0px !important;
     border-top-width: 0.5vh;
     z-index: 999999999;
+    min-width: 400px !important;
   }
   #spotify-player {
     border-top-left-radius: 0rem;

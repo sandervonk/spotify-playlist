@@ -140,6 +140,7 @@ iframe {
 }
 #spotify-container {
   min-width: 400px !important;
+  min-height: 200px !important;
 }
 @media (hover: none), (max-width: 768px), (max-device-width: 768px) {
   #spotify-playlist {

@@ -138,7 +138,9 @@ iframe {
 .background-filter {
   filter: contrast(0.5) saturate(0);
 }
-
+#spotify-container {
+  min-width: 400px !important;
+}
 @media (hover: none), (max-width: 768px), (max-device-width: 768px) {
   #spotify-playlist {
     width: 100% !important;
@@ -187,7 +189,7 @@ iframe {
     border-top-left-radius: 0px !important;
     border-top-width: 0.5vh;
     z-index: 999999999;
-    min-width: 400px !important;
+    min-width: unset !important;
   }
   #spotify-player {
     border-top-left-radius: 0rem;

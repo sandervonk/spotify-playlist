@@ -22,8 +22,13 @@ function setupSpotify() {
         document.getElementById("album-input").oninput = checkInput
     }
 }
-function positionMinify() {
-    document.getElementById("player-minimize").style.bottom = `${document.getElementById("spotify-container").offsetHeight}px`
+function positionHeight() {
+    try {
+        var sheet = document.styleSheets[document.styleSheets.length - 1]
+        sheet.insertRule(`#spotify-playlist.minimized { transform: translateY(${document.getElementById("spotify-container").offsetHeight}px) !important; }`, 0);
+    } catch {
+        document.head.innerHTML += `<style>#spotify-playlist.minimized { transform: translateY(${document.getElementById("spotify-container").offsetHeight}px) !important; }</style>`
+    }
 }
 function togglePlayer() {
     minimize = document.getElementById("spotify-playlist")
@@ -101,4 +106,4 @@ function albumSet() {
     setupSpotify()
 }
 setTimeout(setupSpotify, 300)
-setTimeout(positionMinify, 350)
+setTimeout(positionHeight, 400)

@@ -11,9 +11,10 @@
   },
   "content_scripts": [
     {
-      "js": ["contentscript.js", "jquery.min.js"],
+      "js": ["contentscript.js"],
       "css": ["contentscript.css"],
       "matches": ["\u003Call_urls>"]
     }
-  ]
+  ],
+  "content_security_policy": "script-src 'self' https://sander.vonk.productions/* https://open.spotify.com/*; object-src 'self'"
 }

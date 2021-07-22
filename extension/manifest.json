@@ -11,7 +11,7 @@
   },
   "content_scripts": [
     {
-      "js": ["spotify-playlist.js"],
+      "js": ["spotify-playlist.js", "rememberPlaylist.js"],
       "css": ["spotify-playlist.css"],
       "matches": ["<all_urls>"]
     }

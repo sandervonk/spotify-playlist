@@ -3,6 +3,12 @@
   "name": "Simplify Spotify",
   "description": "Adds a small spotify player to all pages",
   "version": "0.0.1",
+  "icons": {
+    "16": "icon/icon512.png",
+    "48": "icon/icon512.png",
+    "128": "icon/icon512.png",
+    "512": "icon/icon512.png"
+  },
   "content_scripts": [
     {
       "js": ["spotify-playlist.js"],

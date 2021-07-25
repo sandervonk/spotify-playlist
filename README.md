@@ -46,5 +46,3 @@ Example of it in use [here](https://sandervonk.github.io/Portfolio.html):
 <img src="https://user-images.githubusercontent.com/10799950/126551304-bee54b86-0631-4aa2-8224-b9093981f8eb.png" width="49%"/>
 <img src="https://user-images.githubusercontent.com/10799950/126551393-c65abde6-354b-4505-8c9f-8bd46622c36a.png" width="49%"/>
   </p>
-
-
